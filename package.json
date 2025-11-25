@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "concurrently \"npm:start-frontend\" \"npm:start-backend\"",
+    "start": "npx concurrently \"npm:start-frontend\" \"npm:start-backend\"",
     "start-frontend": "cd frontend && npm start",
     "start-backend": "cd backend && npm start"
   },
